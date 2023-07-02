@@ -19,10 +19,14 @@
 
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
-    <link href="./css/style.css" rel="stylesheet" >
-    
- <!-- Custom styles for this page -->
- <link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+
+    <!-- Custom styles for this page -->
+    <link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+
+    <script src="https://cdn.tiny.cloud/1/xp8gr3i96lx9yltifjo9m6fvion5ssx4xmmh0ya5xce0tro4/tinymce/6/tinymce.min.js"
+        referrerpolicy="origin"></script>
+
 </head>
 
 <body id="page-top">
@@ -37,7 +41,7 @@
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class="fas fa-laugh-wink"></i>
-                   
+
                 </div>
                 <div class="sidebar-brand-text mx-3">VSMS Admin</div>
             </a>
@@ -45,189 +49,173 @@
             <!-- Divider -->
             <hr class="sidebar-divider my-0">
 
-              <!-- Divider -->
-              <hr class="sidebar-divider my-0">
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
 
-              <!-- Nav Item - Dashboard -->
-              <li class="nav-item active">
-                  <a class="nav-link" href="index.html">
-                      <i class="fas fa-fw fa-tachometer-alt"></i>
-                      <span>Dashboard</span></a>
-              </li>
-  
-              <!-- Divider -->
-              <hr class="sidebar-divider">
-              <!-- Heading -->
-              <div class="sidebar-heading">
-                  School Managment
-              </div>
-  
-              <li class="nav-item">
-                  <a class="nav-link collapsed" href="./school-registration.html" 
-                      aria-expanded="true" >
-                      <i class="fas fa-fw fa-cog"></i>
-                      <!-- <span>Components</span> -->
-                      <span>School Registration</span>
-                  </a> 
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link collapsed" href="./subject-management.html" 
-                      aria-expanded="true" >
-                      <i class="fas fa-fw fa-wrench"></i>
-                      <span>Subject Management </span>
-                  </a>
-                    </li>
-  
-                    <!--Nav -item Class/Grade Management menu-->
-              <li class="nav-item">
-                  <a class="nav-link collapsed" href="./class-management.html" 
-                      aria-expanded="true" >
-                      <i class="fas fa-fw fa-wrench"></i>
-                      <span>Class/Grade Management</span>
-                  </a>
-                    </li>
-                    
-                    <!--Nav -item Report Card Management menu-->
-              <li class="nav-item">
-                  <a class="nav-link collapsed" href="./report-card-management.html" 
-                      aria-expanded="true" >
-                      <i class="fas fa-fw fa-wrench"></i>
-                      <span>Report Card Management</span>
-                  </a>
-                    </li>
-  
-                    <!--Nav -item Fee Management menu-->
-              <li class="nav-item">
-                  <a class="nav-link collapsed" href="./fee-management.html" 
-                      aria-expanded="true" >
-                      <i class="fas fa-fw fa-wrench"></i>
-                      <span>Fee Management</span>
-                  </a>
-                    </li>
-  
-                    <!--Nav -item HR Management menu-->
-              <li class="nav-item">
-                  <a class="nav-link collapsed" href="#" 
-                      aria-expanded="true" >
-                      <i class="fas fa-fw fa-wrench"></i>
-                      <span>HR Management</span>
-                  </a>
-                    </li>
-  
-                    <!--Nav -item Employee Attandance menu-->
-              <li class="nav-item">
-                  <a class="nav-link collapsed" href="#" 
-                      aria-expanded="true" >
-                      <i class="fas fa-fw fa-wrench"></i>
-                      <span>Employee Attendance</span>
-                  </a>
-                    </li>
-                    
-                     <!--Nav -item Teacher Teaching Hours menu-->
-              <li class="nav-item">
-                  <a class="nav-link collapsed" href="#" 
-                      aria-expanded="true" >
-                      <i class="fas fa-fw fa-wrench"></i>
-                      <span>Teacher Teaching Hours</span>
-                  </a>
-                    </li>
-  
-                    <!--Nav -item Timetable Management Hours menu-->
-              <li class="nav-item">
-                  <a class="nav-link collapsed" href="#" 
-                      aria-expanded="true" >
-                      <i class="fas fa-fw fa-wrench"></i>
-                      <span>Timetable Management</span>
-                  </a>
-                    </li>
-  
-              <!-- Divider -->
-              <hr class="sidebar-divider">
-  
-              <!-- Heading -->
-              <div class="sidebar-heading">
-                  Student Managment
-              </div>                               
-                          
-          <!-- Nav Item - Student Registration Menu -->
-              <li class="nav-item">
-                  <a class="nav-link collapsed" href="./student-registration.html" 
-                      aria-expanded="true" >
-                      <i class="fas fa-fw fa-cog"></i>
-                      <!-- <span>Components</span> -->
-                      <span>Student Registration</span>
-                  </a>
-                  
-              </li>
-  
-              <!-- Nav Item - Student Management Menu -->
-              <li class="nav-item">
-                  <a class="nav-link collapsed" href="./student-management.html" 
-                      aria-expanded="true" >
-                      <i class="fas fa-fw fa-folder"></i>
-                      <!-- <span>Utilities</span> -->
-                      <span>Student Management</span>
-                  </a>
-                  
-              </li>
-  
-              <!--Nav -item Manage Students Activities menu-->
-              <li class="nav-item">
-                  <a class="nav-link collapsed" href="./student-account.html" 
-                      aria-expanded="true" >
-                      <i class="fas fa-fw fa-table"></i>
-                      <!-- <span>Utilities</span> -->
-                      <span>Student Account</span>
-                  </a>
-                  
-              </li>
-  
-              <!--Nav-item Students Attendance menu-->
-              <li class="nav-item">
-                  <a class="nav-link collapsed" href="#" 
-                      aria-expanded="true" >
-                      <i class="fas fa-fw fa-wrench"></i>
-                      <span>Students Attendance</span>
-                  </a>
-                  </li>
-  
-                   <!--Nav-item Acadmic Performance menu-->
-              <li class="nav-item">
-                  <a class="nav-link collapsed" href="#" 
-                      aria-expanded="true" >
-                      <i class="fas fa-fw fa-wrench"></i>
-                      <span>Acadmic Performance</span>
-                  </a>
-                    </li>
-  
-                     <!--Nav-item Document Management menu-->
-              <li class="nav-item">
-                  <a class="nav-link collapsed" href="#" 
-                      aria-expanded="true" >
-                      <i class="fas fa-fw fa-wrench"></i>
-                      <span> Document Management</span>
-                  </a>
-                    </li>
-                    
-                      <!--Nav -item Students Fees menu-->
-              <li class="nav-item">
-                  <a class="nav-link collapsed" href="#" 
-                      aria-expanded="true" >
-                      <i class="fas fa-fw fa-wrench"></i>
-                      <span>Students Fees</span>
-                  </a>
-                    </li>
-  
-                      <!--Nav -item Subject Management menu-->
-              
-                    
-                       <!-- Divider -->
-              <hr class="sidebar-divider">
-  
-              <!-- Heading -->
-              <div class="sidebar-heading">
-                  Parents Managment
-              </div>
+            <!-- Nav Item - Dashboard -->
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">
+                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <span>Dashboard</span></a>
+            </li>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider">
+            <!-- Heading -->
+            <div class="sidebar-heading">
+                School Managment
+            </div>
+
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="./school-registration.html" aria-expanded="true">
+                    <i class="fas fa-fw fa-cog"></i>
+                    <!-- <span>Components</span> -->
+                    <span>School Registration</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="./subject-management.html" aria-expanded="true">
+                    <i class="fas fa-fw fa-wrench"></i>
+                    <span>Subject Management </span>
+                </a>
+            </li>
+
+            <!--Nav -item Class/Grade Management menu-->
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="./class-management.html" aria-expanded="true">
+                    <i class="fas fa-fw fa-wrench"></i>
+                    <span>Class/Grade Management</span>
+                </a>
+            </li>
+
+            <!--Nav -item Report Card Management menu-->
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="./report-card-management.html" aria-expanded="true">
+                    <i class="fas fa-fw fa-wrench"></i>
+                    <span>Report Card Management</span>
+                </a>
+            </li>
+
+            <!--Nav -item Fee Management menu-->
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="./fee-management.html" aria-expanded="true">
+                    <i class="fas fa-fw fa-wrench"></i>
+                    <span>Fee Management</span>
+                </a>
+            </li>
+
+            <!--Nav -item HR Management menu-->
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="./hr-management.html" aria-expanded="true">
+                    <i class="fas fa-fw fa-wrench"></i>
+                    <span>HR Management</span>
+                </a>
+            </li>
+
+            <!--Nav -item Employee Attandance menu-->
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="./emploee-attendance.html" aria-expanded="true">
+                    <i class="fas fa-fw fa-wrench"></i>
+                    <span>Employee Attendance</span>
+                </a>
+            </li>
+
+            <!--Nav -item Teacher Teaching Hours menu-->
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="./teacher-teaching-hours.html" aria-expanded="true">
+                    <i class="fas fa-fw fa-wrench"></i>
+                    <span>Teacher Teaching Hours</span>
+                </a>
+            </li>
+
+            <!--Nav -item Timetable Management Hours menu-->
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="./timetable-management.html" aria-expanded="true">
+                    <i class="fas fa-fw fa-wrench"></i>
+                    <span>Timetable Management</span>
+                </a>
+            </li>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider">
+
+            <!-- Heading -->
+            <div class="sidebar-heading">
+                Student Managment
+            </div>
+
+            <!-- Nav Item - Student Registration Menu -->
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="./student-registration.html" aria-expanded="true">
+                    <i class="fas fa-fw fa-cog"></i>
+                    <!-- <span>Components</span> -->
+                    <span>Student Registration</span>
+                </a>
+
+            </li>
+
+            <!-- Nav Item - Student Management Menu -->
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="./student-management.html" aria-expanded="true">
+                    <i class="fas fa-fw fa-folder"></i>
+                    <!-- <span>Utilities</span> -->
+                    <span>Student Management</span>
+                </a>
+
+            </li>
+
+            <!--Nav -item Manage Students Activities menu-->
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="./student-account.html" aria-expanded="true">
+                    <i class="fas fa-fw fa-table"></i>
+                    <!-- <span>Utilities</span> -->
+                    <span>Student Account</span>
+                </a>
+
+            </li>
+
+            <!--Nav-item Students Attendance menu-->
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="./student-attendance.html" aria-expanded="true">
+                    <i class="fas fa-fw fa-wrench"></i>
+                    <span>Students Attendance</span>
+                </a>
+            </li>
+
+            <!--Nav-item Acadmic Performance menu-->
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="./acadmic-performance.html" aria-expanded="true">
+                    <i class="fas fa-fw fa-wrench"></i>
+                    <span>Acadmic Performance</span>
+                </a>
+            </li>
+
+            <!--Nav-item Document Management menu-->
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="./document-management.html" aria-expanded="true">
+                    <i class="fas fa-fw fa-wrench"></i>
+                    <span> Document Management</span>
+                </a>
+            </li>
+
+            <!--Nav -item Students Fees menu-->
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="./student-fees.html" aria-expanded="true">
+                    <i class="fas fa-fw fa-wrench"></i>
+                    <span>Students Fees</span>
+                </a>
+            </li>
+
+            <!--Nav -item Subject Management menu-->
+
+
+            <!-- Divider -->
+            <hr class="sidebar-divider">
+
+            <!-- Heading -->
+            <div class="sidebar-heading">
+                Parents Managment
+            </div>
 
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
@@ -404,8 +392,7 @@
                                 </h6>
                                 <a class="dropdown-item d-flex align-items-center" href="#">
                                     <div class="dropdown-list-image mr-3">
-                                        <img class="rounded-circle" src="img/undraw_profile_1.svg"
-                                            alt="...">
+                                        <img class="rounded-circle" src="img/undraw_profile_1.svg" alt="...">
                                         <div class="status-indicator bg-success"></div>
                                     </div>
                                     <div class="font-weight-bold">
@@ -416,8 +403,7 @@
                                 </a>
                                 <a class="dropdown-item d-flex align-items-center" href="#">
                                     <div class="dropdown-list-image mr-3">
-                                        <img class="rounded-circle" src="img/undraw_profile_2.svg"
-                                            alt="...">
+                                        <img class="rounded-circle" src="img/undraw_profile_2.svg" alt="...">
                                         <div class="status-indicator"></div>
                                     </div>
                                     <div>
@@ -428,8 +414,7 @@
                                 </a>
                                 <a class="dropdown-item d-flex align-items-center" href="#">
                                     <div class="dropdown-list-image mr-3">
-                                        <img class="rounded-circle" src="img/undraw_profile_3.svg"
-                                            alt="...">
+                                        <img class="rounded-circle" src="img/undraw_profile_3.svg" alt="...">
                                         <div class="status-indicator bg-warning"></div>
                                     </div>
                                     <div>
@@ -461,8 +446,7 @@
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <span class="mr-2 d-none d-lg-inline text-gray-600 small">Ragini</span>
-                                <img class="img-profile rounded-circle"
-                                    src="img/undraw_profile.svg">
+                                <img class="img-profile rounded-circle" src="img/undraw_profile.svg">
                             </a>
                             <!-- Dropdown - User Information -->
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
@@ -498,84 +482,95 @@
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
                         <h1 class="h3 mb-0 text-gray-800">Add New School</h1>
-                        <a href="./school-registration.html" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
+                        <a href="./school-registration.html"
+                            class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
                                 class="fas fa-pencil fa-sm text-white-50"></i> Back </a>
                     </div>
 
-                    
+
 
                     <!-- Content Row -->
-                    <div >
- <!-- DataTales Example -->
- <div class="card shadow mb-4">
-    <div class="card-header py-3">
-    
-    </div>
-    <div class="card-body">
-        <div class="table-responsive">
-            <form>
-                <div class="form-group">
-                  <label for="exampleInputEmail1">School Name</label>
-                  <input type="text" class="form-control" id="schoolName" aria-describedby="emailHelp" 
-                  placeholder="Enter School Name">
-                </div>
+                    <div>
+                        <!-- DataTales Example -->
+                        <div class="card shadow mb-4">
+                            <div class="card-header py-3">
 
-                <div class="form-group">
-                    <label for="exampleInputEmail1">School Address </label>
-                    <textarea class="form-control" id="schoolAddress" rows="3"  placeholder="Enter School Address"></textarea>
-                  </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">School Name</label>
+                                            <input type="text" class="form-control" id="schoolName"
+                                                aria-describedby="emailHelp" placeholder="Enter School Name">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">School Description </label>
+                                            <textarea class="form-control" id="schoolDescription" rows="3"
+                                                placeholder="Enter School Address"></textarea>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">School Address </label>
+                                            <textarea class="form-control" id="schoolAddress" rows="3"
+                                                placeholder="Enter School Address"></textarea>
+                                        </div>
 
 
-                <div class="form-group">
-                    <label for="exampleInputEmail1">Email</label>
-                    <input type="text" class="form-control" id="schooladdress" aria-describedby="emailHelp" 
-                    placeholder="Enter Your Email">
-                  </div>
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">Email</label>
+                                            <input type="text" class="form-control" id="schooladdress"
+                                                aria-describedby="emailHelp" placeholder="Enter Your Email">
+                                        </div>
 
-                  <div class="form-group">
-                    <label for="exampleInputEmail1">Phone Number</label>
-                    <input type="text" class="form-control" id="schooladdress" aria-describedby="emailHelp" 
-                    placeholder="Enter Phone Number">
-                  </div>
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">Phone Number</label>
+                                            <input type="text" class="form-control" id="schooladdress"
+                                                aria-describedby="emailHelp" placeholder="Enter Phone Number">
+                                        </div>
 
-                  <div class="form-group">
-                    <label for="exampleInputEmail1">School Administrator Name</label>
-                    <input type="text" class="form-control" id="schooladdress" aria-describedby="emailHelp" 
-                    placeholder="Enter School Administrator Name">
-                  </div>
-                  
-                  <div class="form-group">
-                    <label for="exampleInputEmail1">School Administrator Email</label>
-                    <input type="text" class="form-control" id="schooladdress" aria-describedby="emailHelp" 
-                    placeholder="Enter School Administrator Email">
-                  </div>
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">School Administrator Name</label>
+                                            <input type="text" class="form-control" id="schooladdress"
+                                                aria-describedby="emailHelp"
+                                                placeholder="Enter School Administrator Name">
+                                        </div>
 
-                  <div class="form-group">
-                    <label for="exampleInputPassword1"> School Administrator Password</label>
-                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="School Administrator Password">
-                  </div>
-               
-                <button type="submit" class="btn btn-primary">Save School</button>
-              </form>
-        </div>
-    </div>
-</div>
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">School Administrator Email</label>
+                                            <input type="text" class="form-control" id="schooladdress"
+                                                aria-describedby="emailHelp"
+                                                placeholder="Enter School Administrator Email">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="exampleInputPassword1"> School Administrator Password</label>
+                                            <input type="text" class="form-control" id="exampleInputPassword1"
+                                                placeholder="School Administrator Password">
+                                        </div>
+
+                                        <button type="submit" class="btn btn-primary">Save School</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
                 <!-- /.container-fluid -->
 
             </div>
-           
 
-         
-            
+
+
+
 
         </div>
-        
+
 
     </div>
-   
+
 
     <!-- Logout Modal-->
     <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
@@ -607,14 +602,31 @@
     <!-- Custom scripts for all pages-->
     <script src="js/sb-admin-2.min.js"></script>
 
-     <!-- Page level plugins -->
-     <script src="vendor/datatables/jquery.dataTables.min.js"></script>
-     <script src="vendor/datatables/dataTables.bootstrap4.min.js"></script>
- 
-     <!-- Page level custom scripts -->
-     <script src="js/demo/datatables-demo.js"></script>
+    <!-- Page level plugins -->
+    <script src="vendor/datatables/jquery.dataTables.min.js"></script>
+    <script src="vendor/datatables/dataTables.bootstrap4.min.js"></script>
 
-   
+    <!-- Page level custom scripts -->
+    <script src="js/demo/datatables-demo.js"></script>
+
+    <script>
+        tinymce.init({
+            selector: '#schoolDescription',
+            plugins: 'anchor autolink charmap codesample emoticons image link lists media searchreplace table visualblocks wordcount checklist mediaembed casechange export formatpainter pageembed linkchecker a11ychecker tinymcespellchecker permanentpen powerpaste advtable advcode editimage tinycomments tableofcontents footnotes mergetags autocorrect typography inlinecss',
+            toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link image media table mergetags | addcomment showcomments | spellcheckdialog a11ycheck typography | align lineheight | checklist numlist bullist indent outdent | emoticons charmap | removeformat',
+            tinycomments_mode: 'embedded',
+            tinycomments_author: 'Author name',
+            mergetags_list: [{
+                    value: 'First.Name',
+                    title: 'First Name'
+                },
+                {
+                    value: 'Email',
+                    title: 'Email'
+                },
+            ]
+        });
+    </script>
 
 </body>
 
